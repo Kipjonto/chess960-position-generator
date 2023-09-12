@@ -11,10 +11,8 @@ def generate_position():
 
     bishopIndex = position.index('♗')
     secondBishopIndex = randint(bishopIndex + 1, len(position))
-
     if (bishopIndex % 2 == secondBishopIndex % 2):
         secondBishopIndex -= 1
-
     position.insert(secondBishopIndex, '♗')
 
     return position
