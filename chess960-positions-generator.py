@@ -13,7 +13,6 @@ def generate_position():
     if (bishopIndex % 2 == secondBishopIndex % 2):
         secondBishopIndex -= 1
     position.insert(secondBishopIndex, '♗')
-
     return position
 
 print(generate_position())
